@@ -1,6 +1,7 @@
 package org.lenny.creational.abstractfactory.network;
 
-import creational.abstractfactory.SomeService;
+
+import org.lenny.creational.abstractfactory.SomeService;
 
 public class NetworkService implements SomeService {
 

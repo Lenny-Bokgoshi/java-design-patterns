@@ -1,6 +1,7 @@
 package org.lenny.creational.abstractfactory.network;
 
-import creational.abstractfactory.Response;
+
+import org.lenny.creational.abstractfactory.Response;
 
 public class NetworkResponse implements Response {
 

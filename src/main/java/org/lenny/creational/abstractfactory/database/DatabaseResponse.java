@@ -1,6 +1,7 @@
 package org.lenny.creational.abstractfactory.database;
 
-import creational.abstractfactory.Response;
+
+import org.lenny.creational.abstractfactory.Response;
 
 public class DatabaseResponse implements Response {
 

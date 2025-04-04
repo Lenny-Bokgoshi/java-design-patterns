@@ -1,9 +1,8 @@
 package org.lenny.creational.abstractfactory;
 
-import creational.abstractfactory.database.DatabaseFactory;
-import creational.abstractfactory.network.NetworkFactory;
 
-
+import org.lenny.creational.abstractfactory.database.DatabaseFactory;
+import org.lenny.creational.abstractfactory.network.NetworkFactory;
 
 /* An interface to create families of related objects without specifying their concrete classes.
  * It is used when multiple objects from different classes are designed to work together and 

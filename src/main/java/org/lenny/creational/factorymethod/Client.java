@@ -1,8 +1,9 @@
 package org.lenny.creational.factorymethod;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 /* An interface for creating an object, but lets subclasses decide which class to instantiate.
  * It helps in creating objects without specifying the exact class.
@@ -27,7 +28,7 @@ public class Client {
 	Shape squareFood = factory.getFood("square");
 	
 	@Test
-	void factoryMethodTest() {
+    public void factoryMethodTest() {
 		assertEquals("round", roundFood.getShape());
 	    assertEquals("square", squareFood.getShape());
 	}

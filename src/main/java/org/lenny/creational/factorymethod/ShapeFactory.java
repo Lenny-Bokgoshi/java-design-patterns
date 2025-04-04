@@ -6,12 +6,12 @@ public class ShapeFactory {
 		if (type == null) {
 			return null;
 		}
-		
-		switch (type) {
-		case "round": return new Pizza();
-		case "square": return new Sandwich();
-		default: throw new IllegalArgumentException("Unknown shape");
-		}
+
+        return switch (type) {
+            case "round" -> new Pizza();
+            case "square" -> new Sandwich();
+            default -> throw new IllegalArgumentException("Unknown shape");
+        };
 		
 	}
 

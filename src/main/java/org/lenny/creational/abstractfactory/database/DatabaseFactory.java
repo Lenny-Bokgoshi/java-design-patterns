@@ -1,8 +1,9 @@
 package org.lenny.creational.abstractfactory.database;
 
-import creational.abstractfactory.AbstractFactory;
-import creational.abstractfactory.Response;
-import creational.abstractfactory.SomeService;
+
+import org.lenny.creational.abstractfactory.AbstractFactory;
+import org.lenny.creational.abstractfactory.Response;
+import org.lenny.creational.abstractfactory.SomeService;
 
 public class DatabaseFactory implements AbstractFactory {
 
