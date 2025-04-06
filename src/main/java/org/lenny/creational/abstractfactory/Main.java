@@ -10,16 +10,16 @@ import org.lenny.creational.abstractfactory.network.NetworkFactory;
  * 
  * Examples
  * - UI Theme System: Create related UI components (buttons, menus, text fields) for different themes 
- * 	like Dark Mode or Light Mode using one factory per theme.
- * Cross-Database Support: For multiple databases (e.g., MySQL, Oracle, MongoDB), an abstract factory can create related DAOs and connection classes for each database type.
-
-Cloud Provider Integration: Provide an abstract factory to create services (e.g., storage, messaging, compute) for AWS, Azure, or GCP.
-
-Payment Gateway Integration: Create families of objects related to payment processing (transaction handler, fraud checker, receipt generator) for different payment gateways (e.g., PayPal, Stripe).
-
-Document Converter System: Support exporting content to families of formats (PDF, DOCX, HTML), each with its own text, image, and table exporters.
- * 
- * 
+ * 		like Dark Mode or Light Mode using one factory per theme.
+ * Cross-Database Support: For multiple databases (e.g., MySQL, Oracle, MongoDB),
+ * 		 an abstract factory can create related DAOs and connection classes for each database type.
+ * Cloud Provider Integration: Provide an abstract factory to create services (e.g., storage, messaging, compute)
+ * 		 for AWS, Azure, or GCP.
+ * Payment Gateway Integration: Create families of objects related to payment processing
+ * 		 (transaction handler, fraud checker, receipt generator) for different payment gateways (e.g., PayPal, Stripe).
+ * Document Converter System: Support exporting content to families of formats (PDF, DOCX, HTML),
+ * 		 each with its own text, image, and table exporters.
+ *
  * **/
 public class Main {
 
