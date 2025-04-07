@@ -7,6 +7,7 @@ public class Caretaker {
 
     public void saveState(Memento mem) {
         mementoList.add(mem);
+        System.out.println("Current states saved is: " + mementoList.size());
     }
 
     public Memento restoreState(int index) {
