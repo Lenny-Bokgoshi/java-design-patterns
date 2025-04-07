@@ -1,7 +1,7 @@
 package org.lenny.behavioural.visitor;
 
 public class FixedPriceContract implements ReportElement {
-    long costPerYear;
+    private long costPerYear;
 
     public FixedPriceContract(long costPerYear) {
         this.costPerYear = costPerYear;
@@ -10,5 +10,13 @@ public class FixedPriceContract implements ReportElement {
     @Override
     public <R> R accept(ReportVisitor<R> visitor) {
         return visitor.visit(this);
+    }
+
+    public long getCostPerYear() {
+        return costPerYear;
+    }
+
+    public void setCostPerYear(long costPerYear) {
+        this.costPerYear = costPerYear;
     }
 }

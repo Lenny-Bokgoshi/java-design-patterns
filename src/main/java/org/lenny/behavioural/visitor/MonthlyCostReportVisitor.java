@@ -4,7 +4,7 @@ public class MonthlyCostReportVisitor implements ReportVisitor<Long> {
 
     @Override
     public Long visit(FixedPriceContract contract) {
-        return contract.costPerYear / 12;
+        return contract.getCostPerYear() / 12;
     }
 
     @Override
